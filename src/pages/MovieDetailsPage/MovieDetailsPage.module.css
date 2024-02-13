@@ -6,19 +6,6 @@
   height: 400px;
   position: relative;
   padding-top: 80px;
-  z-index: -2;
-}
-
-.container:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.45);
-  box-shadow: inset 0 0 80px #000;
-  z-index: -1;
 }
 
 .containerInfo {
