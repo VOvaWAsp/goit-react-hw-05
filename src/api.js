@@ -15,7 +15,7 @@ export const fetchData = async () => {
 export const fetchMovieApi = async ({ query }) => {
         console.log({query})
 
-    const url = 'https://api.themoviedb.org/3/search/movie'
+    const url = 'https://api.themoviedb.org/3/search/movie?'
     const options = {
         headers: {
             Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmNzA2NWU1YWFhMjI1MjY2NmQ3MWIyYmFjNWFlODg4NiIsInN1YiI6IjY1Yzk1NWJkZTI5NWI0MDE2MmY4Y2YwMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.J1pkgXaqJ4IOV42hqrQ589bW88H067HmLNd0HBApIf8'
