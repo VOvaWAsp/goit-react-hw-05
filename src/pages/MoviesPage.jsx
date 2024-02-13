@@ -32,7 +32,7 @@ export default function MoviesPage() {
     <div>
       <h2>Movies page</h2>
       <SearchMovies onSubmit={handleSubmit} />
-      {movies.length > 0 && <MoviesList items={movies} />}
+      <MoviesList items={movies} />
     </div>
   );
 }
