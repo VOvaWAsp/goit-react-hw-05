@@ -1,0 +1,14 @@
+.navBar {
+  border: 2px solid black;
+  background: lightgray;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}

@@ -1,0 +1,79 @@
+.container {
+  background: url('https://s3picturehouses.s3.eu-central-1.amazonaws.com/header/ph_15977496885f3bb9b84457c.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 1470px;
+  height: 400px;
+  position: relative;
+  padding-top: 80px;
+  z-index: -2;
+}
+
+.container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  box-shadow: inset 0 0 80px #000;
+  z-index: -1;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  align-items: center;
+  gap: 10px;
+}
+
+.posterStatus {
+  display: flex;
+  border-top: 2px ridge black;
+  border-bottom: 2px ridge black;
+  background-color: darkgray;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.image {
+  height: 200px;
+  border: 2px solid gold;
+}
+
+.backImage {
+  border: 2px groove gold;
+  height: 377px;
+}
+
+.text {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover,
+.link:focus {
+  color: white;
+  border-bottom: 2px solid black;
+}
+
+.navLink {
+  display: flex;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid black;
+  width: 60px;
+}
